@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
-import 'game_engine.dart';
-import 'game_painter.dart';
+import '../game/game_engine.dart';
+import '../game/game_painter.dart';
 
 class FightScreen extends StatefulWidget {
   const FightScreen({super.key});
